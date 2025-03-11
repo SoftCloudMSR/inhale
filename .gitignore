@@ -9,6 +9,8 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+.pnp.js
+.yarn/install-state.gz
 
 # testing
 /coverage
@@ -16,9 +18,16 @@
 # next.js
 /.next/
 /out/
+.turbo
+.turbopack
+next-env.d.ts
+next.config.ts
+.eslintrc*
+eslint.config.*
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
@@ -33,9 +42,30 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# local env files
+.env*.local
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+tsconfig.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Package manager
+package-lock.json

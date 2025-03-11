@@ -1,0 +1,43 @@
+# Source
+src/
+tests/
+__tests__/
+*.test.*
+*.spec.*
+
+# Development
+.next/
+.turbo/
+coverage/
+node_modules/
+.env*
+.eslintrc*
+eslint.config.*
+.prettierrc*
+jest.config.*
+jest.setup.*
+tsconfig.json
+next.config.ts
+next-env.d.ts
+*.log
+
+# Git
+.git/
+.gitignore
+.github/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build process
+.turbopack/
+.vercel/
+
+# Package manager
+package-lock.json
+
+# Public assets (if not needed in package)
+public/ 
