@@ -1,20 +1,64 @@
-# Inhale
+# @rotarsebastian/inhale
 
 A Next.js application with Tailwind CSS integration.
+
+## Features
+
+- 🎨 Built with Next.js 15 and Tailwind CSS
+- 🚀 Modern and responsive design
+- 🌗 Dark mode support
+- 📦 Easy to integrate
 
 ## Installation
 
 ```bash
-npm install inhale
+npm install @rotarsebastian/inhale
 ```
 
 ## Usage
 
-```javascript
-import { YourComponent } from 'inhale';
+```jsx
+import { Home } from '@rotarsebastian/inhale';
 
-// Use your components
+export default function YourPage() {
+  return (
+    <div>
+      <Home />
+    </div>
+  );
+}
 ```
+
+## Development
+
+To start the development server:
+
+```bash
+npm run dev
+```
+
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build the package
+- `npm run test` - Run tests
+- `npm run lint` - Run linting
+
+### Version Management
+
+To create a new version:
+
+```bash
+npm run version:patch  # For bug fixes (0.1.0 → 0.1.1)
+npm run version:minor  # For new features (0.1.0 → 0.2.0)
+npm run version:major  # For breaking changes (0.1.0 → 1.0.0)
+```
+
+## Requirements
+
+- Node.js >= 18.18.0
+- React >= 19.0.0
+- Next.js >= 15.2.2
 
 ## License
 
