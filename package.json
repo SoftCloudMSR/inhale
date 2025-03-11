@@ -1,6 +1,6 @@
 {
   "name": "inhale",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Next.js application with Tailwind CSS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
